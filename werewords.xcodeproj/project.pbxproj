@@ -12,6 +12,15 @@
 		9A4F05E0235D9B6E000E4BC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A4F05DE235D9B6E000E4BC3 /* Main.storyboard */; };
 		9A4F05E2235D9B6F000E4BC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4F05E1235D9B6F000E4BC3 /* Assets.xcassets */; };
 		9A4F05E5235D9B6F000E4BC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A4F05E3235D9B6F000E4BC3 /* LaunchScreen.storyboard */; };
+		9A4F05ED235DC8BB000E4BC3 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F05EC235DC8BB000E4BC3 /* StartViewController.swift */; };
+		9A4F05EF235DF5B6000E4BC3 /* AssignMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F05EE235DF5B6000E4BC3 /* AssignMasterViewController.swift */; };
+		9A4F05F3235E9B69000E4BC3 /* BeforeRevealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F05F2235E9B69000E4BC3 /* BeforeRevealViewController.swift */; };
+		9A4F05F5235ED4B9000E4BC3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F05F4235ED4B9000E4BC3 /* HomeViewController.swift */; };
+		9A4F05F7235EE384000E4BC3 /* GameRunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F05F6235EE384000E4BC3 /* GameRunViewController.swift */; };
+		9A4F05F9235EE83E000E4BC3 /* AfterRevealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F05F8235EE83E000E4BC3 /* AfterRevealViewController.swift */; };
+		9A4F05FB235EF1BE000E4BC3 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F05FA235EF1BE000E4BC3 /* TimerViewController.swift */; };
+		9A4F05FD235EF5B6000E4BC3 /* ChooseWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F05FC235EF5B6000E4BC3 /* ChooseWordViewController.swift */; };
+		9A4F05FF235F2F74000E4BC3 /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9A4F05FE235F2F74000E4BC3 /* words.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		9A4F05E1235D9B6F000E4BC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A4F05E4235D9B6F000E4BC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A4F05E6235D9B6F000E4BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A4F05EC235DC8BB000E4BC3 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		9A4F05EE235DF5B6000E4BC3 /* AssignMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignMasterViewController.swift; sourceTree = "<group>"; };
+		9A4F05F2235E9B69000E4BC3 /* BeforeRevealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeforeRevealViewController.swift; sourceTree = "<group>"; };
+		9A4F05F4235ED4B9000E4BC3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9A4F05F6235EE384000E4BC3 /* GameRunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRunViewController.swift; sourceTree = "<group>"; };
+		9A4F05F8235EE83E000E4BC3 /* AfterRevealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterRevealViewController.swift; sourceTree = "<group>"; };
+		9A4F05FA235EF1BE000E4BC3 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		9A4F05FC235EF5B6000E4BC3 /* ChooseWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseWordViewController.swift; sourceTree = "<group>"; };
+		9A4F05FE235F2F74000E4BC3 /* words.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = words.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +75,18 @@
 				9A4F05DA235D9B6E000E4BC3 /* AppDelegate.swift */,
 				9A4F05DC235D9B6E000E4BC3 /* ViewController.swift */,
 				9A4F05DE235D9B6E000E4BC3 /* Main.storyboard */,
+				9A4F05F4235ED4B9000E4BC3 /* HomeViewController.swift */,
+				9A4F05EC235DC8BB000E4BC3 /* StartViewController.swift */,
+				9A4F05F6235EE384000E4BC3 /* GameRunViewController.swift */,
+				9A4F05EE235DF5B6000E4BC3 /* AssignMasterViewController.swift */,
+				9A4F05FC235EF5B6000E4BC3 /* ChooseWordViewController.swift */,
+				9A4F05F2235E9B69000E4BC3 /* BeforeRevealViewController.swift */,
+				9A4F05F8235EE83E000E4BC3 /* AfterRevealViewController.swift */,
+				9A4F05FA235EF1BE000E4BC3 /* TimerViewController.swift */,
 				9A4F05E1235D9B6F000E4BC3 /* Assets.xcassets */,
 				9A4F05E3235D9B6F000E4BC3 /* LaunchScreen.storyboard */,
 				9A4F05E6235D9B6F000E4BC3 /* Info.plist */,
+				9A4F05FE235F2F74000E4BC3 /* words.txt */,
 			);
 			path = werewords;
 			sourceTree = "<group>";
@@ -124,6 +151,7 @@
 			files = (
 				9A4F05E5235D9B6F000E4BC3 /* LaunchScreen.storyboard in Resources */,
 				9A4F05E2235D9B6F000E4BC3 /* Assets.xcassets in Resources */,
+				9A4F05FF235F2F74000E4BC3 /* words.txt in Resources */,
 				9A4F05E0235D9B6E000E4BC3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +164,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A4F05DD235D9B6E000E4BC3 /* ViewController.swift in Sources */,
+				9A4F05FB235EF1BE000E4BC3 /* TimerViewController.swift in Sources */,
 				9A4F05DB235D9B6E000E4BC3 /* AppDelegate.swift in Sources */,
+				9A4F05F9235EE83E000E4BC3 /* AfterRevealViewController.swift in Sources */,
+				9A4F05EF235DF5B6000E4BC3 /* AssignMasterViewController.swift in Sources */,
+				9A4F05ED235DC8BB000E4BC3 /* StartViewController.swift in Sources */,
+				9A4F05F3235E9B69000E4BC3 /* BeforeRevealViewController.swift in Sources */,
+				9A4F05FD235EF5B6000E4BC3 /* ChooseWordViewController.swift in Sources */,
+				9A4F05F7235EE384000E4BC3 /* GameRunViewController.swift in Sources */,
+				9A4F05F5235ED4B9000E4BC3 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,16 +318,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FZ2F3H2WHZ;
 				INFOPLIST_FILE = werewords/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = hmh.werewords;
+				PRODUCT_BUNDLE_IDENTIFIER = qk.werewords;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -299,16 +339,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FZ2F3H2WHZ;
 				INFOPLIST_FILE = werewords/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = hmh.werewords;
+				PRODUCT_BUNDLE_IDENTIFIER = qk.werewords;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
