@@ -10,6 +10,7 @@ import UIKit
 
 class TimerViewController: GameRunViewController {
 
+    @IBOutlet weak var hintLabel: UILabel!
     @IBOutlet weak var magicWordLabel1: UILabel!
     @IBOutlet weak var magicWordLabel2: UILabel!
     
@@ -77,6 +78,7 @@ class TimerViewController: GameRunViewController {
             }
             magicWordLabel1.isHidden = false
             magicWordLabel2.isHidden = false
+            hintLabel.text = "游戏结束"
             sender.setTitle("重新开始", for: .normal)
         } else {
             jumpToStart()

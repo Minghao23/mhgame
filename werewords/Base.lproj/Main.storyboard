@@ -43,7 +43,7 @@
             </objects>
             <point key="canvasLocation" x="-738.39999999999998" y="-270.31484257871068"/>
         </scene>
-        <!--Title-->
+        <!--Start View Controller-->
         <scene sceneID="Mpx-7a-bUx">
             <objects>
                 <viewController storyboardIdentifier="StartViewController" id="ELS-ep-6i5" customClass="StartViewController" customModule="werewords" customModuleProvider="target" sceneMemberID="viewController">
@@ -122,7 +122,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Oeb-uc-uXC"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="aKb-Hz-rwo"/>
                     <connections>
                         <outlet property="playerLabel" destination="ktb-5l-4rC" id="ajw-cD-uuu"/>
                         <outlet property="playerNumSlider" destination="6tu-zT-Jov" id="hLC-Fg-Ayb"/>
@@ -423,6 +422,7 @@
                         <viewLayoutGuide key="safeArea" id="rnx-Kn-I8b"/>
                     </view>
                     <connections>
+                        <outlet property="hintLabel" destination="3ZX-sZ-Zv5" id="59w-IQ-xgC"/>
                         <outlet property="magicWordLabel1" destination="0Lu-Cv-rsX" id="dcd-uQ-y98"/>
                         <outlet property="magicWordLabel2" destination="eLA-VS-f0G" id="vXZ-zh-ert"/>
                     </connections>
