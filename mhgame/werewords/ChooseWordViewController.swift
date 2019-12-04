@@ -41,7 +41,7 @@ class ChooseWordViewController: GameRunViewController {
 
     func readWordArray() -> ([String]) {
         var wordArray = [String]()
-        if let txtFile = Bundle.main.path(forResource: "words", ofType: "txt") {
+        if let txtFile = Bundle.main.path(forResource: "werewords_words", ofType: "txt") {
             let txtData = NSData(contentsOfFile: txtFile)
             let myString:String = (NSString(data: txtData! as Data, encoding: String.Encoding.utf8.rawValue))! as String
             wordArray = myString.components(separatedBy: "\n")

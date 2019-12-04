@@ -13,25 +13,34 @@
         <!--Home View Controller-->
         <scene sceneID="Dzt-o1-aJC">
             <objects>
-                <viewController storyboardIdentifier="HomeViewController" id="6kn-ur-YZ7" customClass="HomeViewController" customModule="werewords" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" id="6kn-ur-YZ7" customClass="HomeViewController" customModule="mhgame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MPi-9V-bac">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4fi-Ce-W19">
-                                <rect key="frame" x="0.0" y="192" width="375" height="48"/>
+                                <rect key="frame" x="0.0" y="200" width="375" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="Start Game"/>
+                                <state key="normal" title="狼人真言"/>
                                 <connections>
                                     <segue destination="ELS-ep-6i5" kind="presentation" id="GPk-wn-wfa"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GOb-xK-J1N">
-                                <rect key="frame" x="0.0" y="278" width="375" height="48"/>
+                                <rect key="frame" x="0.0" y="340" width="375" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="Option"/>
+                                <state key="normal" title="设置"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9PG-Ar-Snn">
+                                <rect key="frame" x="0.0" y="270" width="375" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="你说我猜"/>
+                                <connections>
+                                    <segue destination="tx9-oZ-Dx1" kind="presentation" id="un3-A6-vZb"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -41,12 +50,117 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6CA-8q-83O" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-738.39999999999998" y="-270.31484257871068"/>
+            <point key="canvasLocation" x="-810" y="66"/>
+        </scene>
+        <!--Guess Word Start View Controller-->
+        <scene sceneID="LuI-s1-4O3">
+            <objects>
+                <viewController storyboardIdentifier="GuessWordStartViewController" id="tx9-oZ-Dx1" customClass="GuessWordStartViewController" customModule="mhgame" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Rb5-rS-Ijo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sbr-qk-qWu">
+                                <rect key="frame" x="0.0" y="550" width="375" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="开始游戏"/>
+                                <connections>
+                                    <action selector="jumpToAssignMaster:" destination="ELS-ep-6i5" eventType="touchUpInside" id="NHQ-uZ-jbk"/>
+                                    <action selector="jumpToPlaying:" destination="tx9-oZ-Dx1" eventType="touchUpInside" id="r4q-s4-NqI"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="请选择词库类别" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="peO-vk-lsy">
+                                <rect key="frame" x="0.0" y="70" width="375" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="PTF-xI-ZkW"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d3e-uh-Nil" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="70" y="430"/>
+        </scene>
+        <!--Guess Word Playing View Controller-->
+        <scene sceneID="SdP-3X-17g">
+            <objects>
+                <viewController storyboardIdentifier="GuessWordPlayingViewController" id="FDZ-vg-K4H" customClass="GuessWordPlayingViewController" customModule="mhgame" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Sxr-2C-2hu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="测试" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g2a-JT-KIa">
+                                <rect key="frame" x="0.0" y="120" width="375" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="STAT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d87-j4-ghG">
+                                <rect key="frame" x="0.0" y="240" width="375" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Total: 23" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n4N-Z8-tXN">
+                                <rect key="frame" x="0.0" y="270" width="375" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Accuracy: 20%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sy3-Cl-ksK">
+                                <rect key="frame" x="0.0" y="360" width="375" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pass: 23" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7bB-PB-RB0">
+                                <rect key="frame" x="0.0" y="300" width="375" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="1" green="0.3921568627" blue="0.3921568627" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bingo: 23" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KHt-71-sPP">
+                                <rect key="frame" x="0.0" y="330" width="375" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.3921568627" green="0.7843137255" blue="0.3921568627" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Reaction Time: 0.0s" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8dJ-Ut-jHH">
+                                <rect key="frame" x="0.0" y="390" width="375" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="gNk-7e-qcw"/>
+                    </view>
+                    <connections>
+                        <outlet property="accuracyLabel" destination="Sy3-Cl-ksK" id="Pgy-aj-Pp6"/>
+                        <outlet property="avgReactionTimeLabel" destination="8dJ-Ut-jHH" id="o0S-L1-ftx"/>
+                        <outlet property="bingoLabel" destination="KHt-71-sPP" id="Ifx-VK-XF4"/>
+                        <outlet property="passLabel" destination="7bB-PB-RB0" id="nBa-C6-Lci"/>
+                        <outlet property="totalLabel" destination="n4N-Z8-tXN" id="pEj-Ld-akq"/>
+                        <outlet property="wordLabel" destination="g2a-JT-KIa" id="NlQ-uu-9Yx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mTE-oP-yms" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="846" y="430"/>
         </scene>
         <!--Start View Controller-->
         <scene sceneID="Mpx-7a-bUx">
             <objects>
-                <viewController storyboardIdentifier="StartViewController" id="ELS-ep-6i5" customClass="StartViewController" customModule="werewords" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="StartViewController" id="ELS-ep-6i5" customClass="StartViewController" customModule="mhgame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fpG-Gh-4YL">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -138,7 +252,7 @@
         <!--Assign Master View Controller-->
         <scene sceneID="WZs-F1-6HA">
             <objects>
-                <viewController storyboardIdentifier="AssignMasterViewController" id="epD-19-t51" customClass="AssignMasterViewController" customModule="werewords" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AssignMasterViewController" id="epD-19-t51" customClass="AssignMasterViewController" customModule="mhgame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="O6r-f4-J5d">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -202,7 +316,7 @@
         <!--Before Reveal View Controller-->
         <scene sceneID="0NK-TS-JdR">
             <objects>
-                <viewController storyboardIdentifier="BeforeRevealViewController" id="VoY-vS-42n" customClass="BeforeRevealViewController" customModule="werewords" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BeforeRevealViewController" id="VoY-vS-42n" customClass="BeforeRevealViewController" customModule="mhgame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3U4-Z1-SAx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -238,7 +352,7 @@
         <!--Choose Word View Controller-->
         <scene sceneID="JhL-1P-pEO">
             <objects>
-                <viewController storyboardIdentifier="ChooseWordViewController" id="lEh-sK-zrB" customClass="ChooseWordViewController" customModule="werewords" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ChooseWordViewController" id="lEh-sK-zrB" customClass="ChooseWordViewController" customModule="mhgame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aRD-PD-h4z">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -316,7 +430,7 @@
         <!--After Reveal View Controller-->
         <scene sceneID="hnU-nG-ZAo">
             <objects>
-                <viewController storyboardIdentifier="AfterRevealViewController" id="jVj-hH-dIy" customClass="AfterRevealViewController" customModule="werewords" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AfterRevealViewController" id="jVj-hH-dIy" customClass="AfterRevealViewController" customModule="mhgame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="edw-PM-Ibs">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -382,7 +496,7 @@
         <!--Timer View Controller-->
         <scene sceneID="xxU-s8-Kmg">
             <objects>
-                <viewController storyboardIdentifier="TimerViewController" id="PLB-cp-Q7E" customClass="TimerViewController" customModule="werewords" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TimerViewController" id="PLB-cp-Q7E" customClass="TimerViewController" customModule="mhgame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xqA-Gj-Zie">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

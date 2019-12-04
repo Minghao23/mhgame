@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:werewords.xcodeproj">
+      location = "self:/Users/hmh/Project/werewords/mhgame.xcodeproj">
    </FileRef>
 </Workspace>

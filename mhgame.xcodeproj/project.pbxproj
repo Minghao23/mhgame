@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A0748CE236152AB0014C906 /* GoHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0748CD236152AB0014C906 /* GoHomeViewController.swift */; };
 		9A4F05DB235D9B6E000E4BC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F05DA235D9B6E000E4BC3 /* AppDelegate.swift */; };
 		9A4F05DD235D9B6E000E4BC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F05DC235D9B6E000E4BC3 /* ViewController.swift */; };
 		9A4F05E0235D9B6E000E4BC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A4F05DE235D9B6E000E4BC3 /* Main.storyboard */; };
-		9A4F05E2235D9B6F000E4BC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4F05E1235D9B6F000E4BC3 /* Assets.xcassets */; };
 		9A4F05E5235D9B6F000E4BC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A4F05E3235D9B6F000E4BC3 /* LaunchScreen.storyboard */; };
 		9A4F05ED235DC8BB000E4BC3 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F05EC235DC8BB000E4BC3 /* StartViewController.swift */; };
 		9A4F05EF235DF5B6000E4BC3 /* AssignMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F05EE235DF5B6000E4BC3 /* AssignMasterViewController.swift */; };
@@ -20,15 +20,29 @@
 		9A4F05F9235EE83E000E4BC3 /* AfterRevealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F05F8235EE83E000E4BC3 /* AfterRevealViewController.swift */; };
 		9A4F05FB235EF1BE000E4BC3 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F05FA235EF1BE000E4BC3 /* TimerViewController.swift */; };
 		9A4F05FD235EF5B6000E4BC3 /* ChooseWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F05FC235EF5B6000E4BC3 /* ChooseWordViewController.swift */; };
-		9A4F05FF235F2F74000E4BC3 /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9A4F05FE235F2F74000E4BC3 /* words.txt */; };
+		9A4F05FF235F2F74000E4BC3 /* werewords_words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9A4F05FE235F2F74000E4BC3 /* werewords_words.txt */; };
+		9A63C8892361A3D1007E8F86 /* GuessWordStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A63C8882361A3D1007E8F86 /* GuessWordStartViewController.swift */; };
+		9A63C88E2361A826007E8F86 /* GuessWordPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A63C88D2361A826007E8F86 /* GuessWordPlayingViewController.swift */; };
+		9A63C8942361CA07007E8F86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A63C8932361CA06007E8F86 /* Assets.xcassets */; };
+		9A63C8A62361EAD4007E8F86 /* THUOCL_chengyu.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9A63C89B2361EAD3007E8F86 /* THUOCL_chengyu.txt */; };
+		9A63C8A72361EAD4007E8F86 /* THUOCL_car.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9A63C89C2361EAD3007E8F86 /* THUOCL_car.txt */; };
+		9A63C8A82361EAD4007E8F86 /* THUOCL_medical.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9A63C89D2361EAD3007E8F86 /* THUOCL_medical.txt */; };
+		9A63C8A92361EAD4007E8F86 /* THUOCL_it.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9A63C89E2361EAD3007E8F86 /* THUOCL_it.txt */; };
+		9A63C8AA2361EAD4007E8F86 /* THUOCL_food.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9A63C89F2361EAD4007E8F86 /* THUOCL_food.txt */; };
+		9A63C8AB2361EAD4007E8F86 /* THUOCL_caijing.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9A63C8A02361EAD4007E8F86 /* THUOCL_caijing.txt */; };
+		9A63C8AC2361EAD4007E8F86 /* THUOCL_law.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9A63C8A12361EAD4007E8F86 /* THUOCL_law.txt */; };
+		9A63C8AD2361EAD4007E8F86 /* THUOCL_diming.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9A63C8A22361EAD4007E8F86 /* THUOCL_diming.txt */; };
+		9A63C8AE2361EAD4007E8F86 /* THUOCL_animal.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9A63C8A32361EAD4007E8F86 /* THUOCL_animal.txt */; };
+		9A63C8AF2361EAD4007E8F86 /* THUOCL_lishimingren.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9A63C8A42361EAD4007E8F86 /* THUOCL_lishimingren.txt */; };
+		9A63C8B02361EAD4007E8F86 /* THUOCL_poem.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9A63C8A52361EAD4007E8F86 /* THUOCL_poem.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9A4F05D7235D9B6E000E4BC3 /* werewords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = werewords.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0748CD236152AB0014C906 /* GoHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoHomeViewController.swift; sourceTree = "<group>"; };
+		9A4F05D7235D9B6E000E4BC3 /* mhgame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mhgame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4F05DA235D9B6E000E4BC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A4F05DC235D9B6E000E4BC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9A4F05DF235D9B6E000E4BC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9A4F05E1235D9B6F000E4BC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A4F05E4235D9B6F000E4BC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A4F05E6235D9B6F000E4BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A4F05EC235DC8BB000E4BC3 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
@@ -39,7 +53,21 @@
 		9A4F05F8235EE83E000E4BC3 /* AfterRevealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterRevealViewController.swift; sourceTree = "<group>"; };
 		9A4F05FA235EF1BE000E4BC3 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		9A4F05FC235EF5B6000E4BC3 /* ChooseWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseWordViewController.swift; sourceTree = "<group>"; };
-		9A4F05FE235F2F74000E4BC3 /* words.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = words.txt; sourceTree = "<group>"; };
+		9A4F05FE235F2F74000E4BC3 /* werewords_words.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = werewords_words.txt; sourceTree = "<group>"; };
+		9A63C8882361A3D1007E8F86 /* GuessWordStartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessWordStartViewController.swift; sourceTree = "<group>"; };
+		9A63C88D2361A826007E8F86 /* GuessWordPlayingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessWordPlayingViewController.swift; sourceTree = "<group>"; };
+		9A63C8932361CA06007E8F86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A63C89B2361EAD3007E8F86 /* THUOCL_chengyu.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = THUOCL_chengyu.txt; sourceTree = "<group>"; };
+		9A63C89C2361EAD3007E8F86 /* THUOCL_car.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = THUOCL_car.txt; sourceTree = "<group>"; };
+		9A63C89D2361EAD3007E8F86 /* THUOCL_medical.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = THUOCL_medical.txt; sourceTree = "<group>"; };
+		9A63C89E2361EAD3007E8F86 /* THUOCL_it.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = THUOCL_it.txt; sourceTree = "<group>"; };
+		9A63C89F2361EAD4007E8F86 /* THUOCL_food.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = THUOCL_food.txt; sourceTree = "<group>"; };
+		9A63C8A02361EAD4007E8F86 /* THUOCL_caijing.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = THUOCL_caijing.txt; sourceTree = "<group>"; };
+		9A63C8A12361EAD4007E8F86 /* THUOCL_law.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = THUOCL_law.txt; sourceTree = "<group>"; };
+		9A63C8A22361EAD4007E8F86 /* THUOCL_diming.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = THUOCL_diming.txt; sourceTree = "<group>"; };
+		9A63C8A32361EAD4007E8F86 /* THUOCL_animal.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = THUOCL_animal.txt; sourceTree = "<group>"; };
+		9A63C8A42361EAD4007E8F86 /* THUOCL_lishimingren.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = THUOCL_lishimingren.txt; sourceTree = "<group>"; };
+		9A63C8A52361EAD4007E8F86 /* THUOCL_poem.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = THUOCL_poem.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +84,7 @@
 		9A4F05CE235D9B6D000E4BC3 = {
 			isa = PBXGroup;
 			children = (
-				9A4F05D9235D9B6E000E4BC3 /* werewords */,
+				9A4F05D9235D9B6E000E4BC3 /* mhgame */,
 				9A4F05D8235D9B6E000E4BC3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,18 +92,42 @@
 		9A4F05D8235D9B6E000E4BC3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A4F05D7235D9B6E000E4BC3 /* werewords.app */,
+				9A4F05D7235D9B6E000E4BC3 /* mhgame.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9A4F05D9235D9B6E000E4BC3 /* werewords */ = {
+		9A4F05D9235D9B6E000E4BC3 /* mhgame */ = {
 			isa = PBXGroup;
 			children = (
+				9A63C88C2361A77F007E8F86 /* werewords */,
+				9A63C88A2361A539007E8F86 /* guessword */,
 				9A4F05DA235D9B6E000E4BC3 /* AppDelegate.swift */,
 				9A4F05DC235D9B6E000E4BC3 /* ViewController.swift */,
 				9A4F05DE235D9B6E000E4BC3 /* Main.storyboard */,
 				9A4F05F4235ED4B9000E4BC3 /* HomeViewController.swift */,
+				9A0748CD236152AB0014C906 /* GoHomeViewController.swift */,
+				9A4F05E3235D9B6F000E4BC3 /* LaunchScreen.storyboard */,
+				9A63C8932361CA06007E8F86 /* Assets.xcassets */,
+				9A4F05E6235D9B6F000E4BC3 /* Info.plist */,
+			);
+			path = mhgame;
+			sourceTree = "<group>";
+		};
+		9A63C88A2361A539007E8F86 /* guessword */ = {
+			isa = PBXGroup;
+			children = (
+				9A63C8972361D884007E8F86 /* dataset */,
+				9A63C8882361A3D1007E8F86 /* GuessWordStartViewController.swift */,
+				9A63C88D2361A826007E8F86 /* GuessWordPlayingViewController.swift */,
+			);
+			path = guessword;
+			sourceTree = "<group>";
+		};
+		9A63C88C2361A77F007E8F86 /* werewords */ = {
+			isa = PBXGroup;
+			children = (
+				9A4F05FE235F2F74000E4BC3 /* werewords_words.txt */,
 				9A4F05EC235DC8BB000E4BC3 /* StartViewController.swift */,
 				9A4F05F6235EE384000E4BC3 /* GameRunViewController.swift */,
 				9A4F05EE235DF5B6000E4BC3 /* AssignMasterViewController.swift */,
@@ -83,20 +135,42 @@
 				9A4F05F2235E9B69000E4BC3 /* BeforeRevealViewController.swift */,
 				9A4F05F8235EE83E000E4BC3 /* AfterRevealViewController.swift */,
 				9A4F05FA235EF1BE000E4BC3 /* TimerViewController.swift */,
-				9A4F05E1235D9B6F000E4BC3 /* Assets.xcassets */,
-				9A4F05E3235D9B6F000E4BC3 /* LaunchScreen.storyboard */,
-				9A4F05E6235D9B6F000E4BC3 /* Info.plist */,
-				9A4F05FE235F2F74000E4BC3 /* words.txt */,
 			);
 			path = werewords;
+			sourceTree = "<group>";
+		};
+		9A63C8972361D884007E8F86 /* dataset */ = {
+			isa = PBXGroup;
+			children = (
+				9A63C8B12361EAFB007E8F86 /* thuocl */,
+			);
+			path = dataset;
+			sourceTree = "<group>";
+		};
+		9A63C8B12361EAFB007E8F86 /* thuocl */ = {
+			isa = PBXGroup;
+			children = (
+				9A63C8A32361EAD4007E8F86 /* THUOCL_animal.txt */,
+				9A63C8A02361EAD4007E8F86 /* THUOCL_caijing.txt */,
+				9A63C89C2361EAD3007E8F86 /* THUOCL_car.txt */,
+				9A63C89B2361EAD3007E8F86 /* THUOCL_chengyu.txt */,
+				9A63C8A22361EAD4007E8F86 /* THUOCL_diming.txt */,
+				9A63C89F2361EAD4007E8F86 /* THUOCL_food.txt */,
+				9A63C89E2361EAD3007E8F86 /* THUOCL_it.txt */,
+				9A63C8A12361EAD4007E8F86 /* THUOCL_law.txt */,
+				9A63C8A42361EAD4007E8F86 /* THUOCL_lishimingren.txt */,
+				9A63C89D2361EAD3007E8F86 /* THUOCL_medical.txt */,
+				9A63C8A52361EAD4007E8F86 /* THUOCL_poem.txt */,
+			);
+			path = thuocl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9A4F05D6235D9B6E000E4BC3 /* werewords */ = {
+		9A4F05D6235D9B6E000E4BC3 /* mhgame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A4F05E9235D9B6F000E4BC3 /* Build configuration list for PBXNativeTarget "werewords" */;
+			buildConfigurationList = 9A4F05E9235D9B6F000E4BC3 /* Build configuration list for PBXNativeTarget "mhgame" */;
 			buildPhases = (
 				9A4F05D3235D9B6E000E4BC3 /* Sources */,
 				9A4F05D4235D9B6E000E4BC3 /* Frameworks */,
@@ -106,9 +180,9 @@
 			);
 			dependencies = (
 			);
-			name = werewords;
-			productName = werewords;
-			productReference = 9A4F05D7235D9B6E000E4BC3 /* werewords.app */;
+			name = mhgame;
+			productName = mhgame;
+			productReference = 9A4F05D7235D9B6E000E4BC3 /* mhgame.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,7 +200,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9A4F05D2235D9B6D000E4BC3 /* Build configuration list for PBXProject "werewords" */;
+			buildConfigurationList = 9A4F05D2235D9B6D000E4BC3 /* Build configuration list for PBXProject "mhgame" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -139,7 +213,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9A4F05D6235D9B6E000E4BC3 /* werewords */,
+				9A4F05D6235D9B6E000E4BC3 /* mhgame */,
 			);
 		};
 /* End PBXProject section */
@@ -149,10 +223,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A63C8A72361EAD4007E8F86 /* THUOCL_car.txt in Resources */,
+				9A63C8AD2361EAD4007E8F86 /* THUOCL_diming.txt in Resources */,
+				9A63C8AF2361EAD4007E8F86 /* THUOCL_lishimingren.txt in Resources */,
 				9A4F05E5235D9B6F000E4BC3 /* LaunchScreen.storyboard in Resources */,
-				9A4F05E2235D9B6F000E4BC3 /* Assets.xcassets in Resources */,
-				9A4F05FF235F2F74000E4BC3 /* words.txt in Resources */,
+				9A63C8AE2361EAD4007E8F86 /* THUOCL_animal.txt in Resources */,
+				9A4F05FF235F2F74000E4BC3 /* werewords_words.txt in Resources */,
+				9A63C8A82361EAD4007E8F86 /* THUOCL_medical.txt in Resources */,
+				9A63C8942361CA07007E8F86 /* Assets.xcassets in Resources */,
+				9A63C8AC2361EAD4007E8F86 /* THUOCL_law.txt in Resources */,
+				9A63C8B02361EAD4007E8F86 /* THUOCL_poem.txt in Resources */,
+				9A63C8A62361EAD4007E8F86 /* THUOCL_chengyu.txt in Resources */,
+				9A63C8A92361EAD4007E8F86 /* THUOCL_it.txt in Resources */,
+				9A63C8AB2361EAD4007E8F86 /* THUOCL_caijing.txt in Resources */,
 				9A4F05E0235D9B6E000E4BC3 /* Main.storyboard in Resources */,
+				9A63C8AA2361EAD4007E8F86 /* THUOCL_food.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,8 +248,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A63C88E2361A826007E8F86 /* GuessWordPlayingViewController.swift in Sources */,
 				9A4F05DD235D9B6E000E4BC3 /* ViewController.swift in Sources */,
+				9A63C8892361A3D1007E8F86 /* GuessWordStartViewController.swift in Sources */,
 				9A4F05FB235EF1BE000E4BC3 /* TimerViewController.swift in Sources */,
+				9A0748CE236152AB0014C906 /* GoHomeViewController.swift in Sources */,
 				9A4F05DB235D9B6E000E4BC3 /* AppDelegate.swift in Sources */,
 				9A4F05F9235EE83E000E4BC3 /* AfterRevealViewController.swift in Sources */,
 				9A4F05EF235DF5B6000E4BC3 /* AssignMasterViewController.swift in Sources */,
@@ -321,13 +409,13 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 432768CRKH;
-				INFOPLIST_FILE = werewords/Info.plist;
+				INFOPLIST_FILE = mhgame/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = hmh.werewords;
+				PRODUCT_BUNDLE_IDENTIFIER = hmh.mhgame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
@@ -342,13 +430,13 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 432768CRKH;
-				INFOPLIST_FILE = werewords/Info.plist;
+				INFOPLIST_FILE = mhgame/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = hmh.werewords;
+				PRODUCT_BUNDLE_IDENTIFIER = hmh.mhgame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
@@ -359,7 +447,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9A4F05D2235D9B6D000E4BC3 /* Build configuration list for PBXProject "werewords" */ = {
+		9A4F05D2235D9B6D000E4BC3 /* Build configuration list for PBXProject "mhgame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A4F05E7235D9B6F000E4BC3 /* Debug */,
@@ -368,7 +456,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A4F05E9235D9B6F000E4BC3 /* Build configuration list for PBXNativeTarget "werewords" */ = {
+		9A4F05E9235D9B6F000E4BC3 /* Build configuration list for PBXNativeTarget "mhgame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A4F05EA235D9B6F000E4BC3 /* Debug */,

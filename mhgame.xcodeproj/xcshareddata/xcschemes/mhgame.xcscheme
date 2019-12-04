@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9A4F05D6235D9B6E000E4BC3"
-               BuildableName = "werewords.app"
-               BlueprintName = "werewords"
-               ReferencedContainer = "container:werewords.xcodeproj">
+               BuildableName = "mhgame.app"
+               BlueprintName = "mhgame"
+               ReferencedContainer = "container:mhgame.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9A4F05D6235D9B6E000E4BC3"
-            BuildableName = "werewords.app"
-            BlueprintName = "werewords"
-            ReferencedContainer = "container:werewords.xcodeproj">
+            BuildableName = "mhgame.app"
+            BlueprintName = "mhgame"
+            ReferencedContainer = "container:mhgame.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9A4F05D6235D9B6E000E4BC3"
-            BuildableName = "werewords.app"
-            BlueprintName = "werewords"
-            ReferencedContainer = "container:werewords.xcodeproj">
+            BuildableName = "mhgame.app"
+            BlueprintName = "mhgame"
+            ReferencedContainer = "container:mhgame.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <EnvironmentVariables>
@@ -82,9 +82,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9A4F05D6235D9B6E000E4BC3"
-            BuildableName = "werewords.app"
-            BlueprintName = "werewords"
-            ReferencedContainer = "container:werewords.xcodeproj">
+            BuildableName = "mhgame.app"
+            BlueprintName = "mhgame"
+            ReferencedContainer = "container:mhgame.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

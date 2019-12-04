@@ -8,7 +8,7 @@
 
 import UIKit
 
-class StartViewController: UIViewController {
+class StartViewController: GoHomeViewController {
     
     @IBOutlet weak var playerLabel: UILabel!
     @IBOutlet weak var wolfLabel: UILabel!
@@ -25,7 +25,6 @@ class StartViewController: UIViewController {
     
     override func viewDidLoad(){
         super.viewDidLoad()
-        addHomeButton()
         playerNumSlider.value = Float(playerNum!)
         wolfNumStepper.value = Double(wolfNum!)
         updateNum()
@@ -72,52 +71,5 @@ class StartViewController: UIViewController {
         assignMasterViewController.identities = result.identities
         assignMasterViewController.masterPos = result.masterPos
         present(assignMasterViewController, animated: false)
-    }
-    
-    func addHomeButton() {
-        let home = UIButton(frame:CGRect(x: 20, y: 20, width: 100, height: 50))
-        home.setTitle("主页", for: .normal)
-        home.contentHorizontalAlignment = .left
-        home.backgroundColor = .white
-        home.setTitleColor(.gray, for: .normal)
-        home.addTarget(self, action: #selector(jumpToHome), for: .touchUpInside)
-        self.view.addSubview(home)
-    }
-    
-    @objc func jumpToHome() {
-        let homeViewController = self.storyboard?.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
-        present(homeViewController, animated: false)
-    }
-}
-
-extension Array {
-    
-    public var sample: Element? {
-        guard count > 0 else { return nil }
-        let randomIndex = Int(arc4random_uniform(UInt32(count)))
-        return self[randomIndex]
-    }
-    
-    public func sample(size: Int, noRepeat: Bool = false) -> [Element]? {
-        guard !isEmpty else { return nil }
-        
-        var sampleElements: [Element] = []
-        if !noRepeat {
-            for _ in 0..<size {
-                sampleElements.append(sample!)
-            }
-        }
-        else{
-            var copy = self.map { $0 }
-            for _ in 0..<size {
-                if copy.isEmpty { break }
-                let randomIndex = Int(arc4random_uniform(UInt32(copy.count)))
-                let element = copy[randomIndex]
-                sampleElements.append(element)
-                copy.remove(at: randomIndex)
-            }
-        }
-        
-        return sampleElements
-    }
+    }    
 }
