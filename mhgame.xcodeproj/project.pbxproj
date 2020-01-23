@@ -21,6 +21,8 @@
 		9A4F05FB235EF1BE000E4BC3 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F05FA235EF1BE000E4BC3 /* TimerViewController.swift */; };
 		9A4F05FD235EF5B6000E4BC3 /* ChooseWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F05FC235EF5B6000E4BC3 /* ChooseWordViewController.swift */; };
 		9A4F05FF235F2F74000E4BC3 /* werewords_words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9A4F05FE235F2F74000E4BC3 /* werewords_words.txt */; };
+		9A508B3F23C6DA2A000E91E8 /* RankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A508B3E23C6DA2A000E91E8 /* RankViewController.swift */; };
+		9A605D0A23C5EEF700697C2F /* SchulteGridStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A605D0923C5EEF700697C2F /* SchulteGridStartViewController.swift */; };
 		9A63C8892361A3D1007E8F86 /* GuessWordStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A63C8882361A3D1007E8F86 /* GuessWordStartViewController.swift */; };
 		9A63C88E2361A826007E8F86 /* GuessWordPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A63C88D2361A826007E8F86 /* GuessWordPlayingViewController.swift */; };
 		9A63C8942361CA07007E8F86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A63C8932361CA06007E8F86 /* Assets.xcassets */; };
@@ -35,6 +37,9 @@
 		9A63C8AE2361EAD4007E8F86 /* THUOCL_animal.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9A63C8A32361EAD4007E8F86 /* THUOCL_animal.txt */; };
 		9A63C8AF2361EAD4007E8F86 /* THUOCL_lishimingren.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9A63C8A42361EAD4007E8F86 /* THUOCL_lishimingren.txt */; };
 		9A63C8B02361EAD4007E8F86 /* THUOCL_poem.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9A63C8A52361EAD4007E8F86 /* THUOCL_poem.txt */; };
+		9A731BCF23B1B66E00F13876 /* models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A731BCE23B1B66E00F13876 /* models.swift */; };
+		9A731BD123B1E4D100F13876 /* ScoreRecorderStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A731BD023B1E4D100F13876 /* ScoreRecorderStartViewController.swift */; };
+		9A731BD323B213B400F13876 /* EditTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A731BD223B213B300F13876 /* EditTeamViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +59,8 @@
 		9A4F05FA235EF1BE000E4BC3 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		9A4F05FC235EF5B6000E4BC3 /* ChooseWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseWordViewController.swift; sourceTree = "<group>"; };
 		9A4F05FE235F2F74000E4BC3 /* werewords_words.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = werewords_words.txt; sourceTree = "<group>"; };
+		9A508B3E23C6DA2A000E91E8 /* RankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankViewController.swift; sourceTree = "<group>"; };
+		9A605D0923C5EEF700697C2F /* SchulteGridStartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchulteGridStartViewController.swift; sourceTree = "<group>"; };
 		9A63C8882361A3D1007E8F86 /* GuessWordStartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessWordStartViewController.swift; sourceTree = "<group>"; };
 		9A63C88D2361A826007E8F86 /* GuessWordPlayingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessWordPlayingViewController.swift; sourceTree = "<group>"; };
 		9A63C8932361CA06007E8F86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -68,6 +75,9 @@
 		9A63C8A32361EAD4007E8F86 /* THUOCL_animal.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = THUOCL_animal.txt; sourceTree = "<group>"; };
 		9A63C8A42361EAD4007E8F86 /* THUOCL_lishimingren.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = THUOCL_lishimingren.txt; sourceTree = "<group>"; };
 		9A63C8A52361EAD4007E8F86 /* THUOCL_poem.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = THUOCL_poem.txt; sourceTree = "<group>"; };
+		9A731BCE23B1B66E00F13876 /* models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = models.swift; sourceTree = "<group>"; };
+		9A731BD023B1E4D100F13876 /* ScoreRecorderStartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreRecorderStartViewController.swift; sourceTree = "<group>"; };
+		9A731BD223B213B300F13876 /* EditTeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTeamViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +110,8 @@
 		9A4F05D9235D9B6E000E4BC3 /* mhgame */ = {
 			isa = PBXGroup;
 			children = (
+				9A605D0823C5EEBD00697C2F /* schulte_grid */,
+				9A731BCD23B1B58900F13876 /* score_recorder */,
 				9A63C88C2361A77F007E8F86 /* werewords */,
 				9A63C88A2361A539007E8F86 /* guessword */,
 				9A4F05DA235D9B6E000E4BC3 /* AppDelegate.swift */,
@@ -112,6 +124,15 @@
 				9A4F05E6235D9B6F000E4BC3 /* Info.plist */,
 			);
 			path = mhgame;
+			sourceTree = "<group>";
+		};
+		9A605D0823C5EEBD00697C2F /* schulte_grid */ = {
+			isa = PBXGroup;
+			children = (
+				9A605D0923C5EEF700697C2F /* SchulteGridStartViewController.swift */,
+				9A508B3E23C6DA2A000E91E8 /* RankViewController.swift */,
+			);
+			path = schulte_grid;
 			sourceTree = "<group>";
 		};
 		9A63C88A2361A539007E8F86 /* guessword */ = {
@@ -163,6 +184,16 @@
 				9A63C8A52361EAD4007E8F86 /* THUOCL_poem.txt */,
 			);
 			path = thuocl;
+			sourceTree = "<group>";
+		};
+		9A731BCD23B1B58900F13876 /* score_recorder */ = {
+			isa = PBXGroup;
+			children = (
+				9A731BCE23B1B66E00F13876 /* models.swift */,
+				9A731BD023B1E4D100F13876 /* ScoreRecorderStartViewController.swift */,
+				9A731BD223B213B300F13876 /* EditTeamViewController.swift */,
+			);
+			path = score_recorder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,15 +281,20 @@
 			files = (
 				9A63C88E2361A826007E8F86 /* GuessWordPlayingViewController.swift in Sources */,
 				9A4F05DD235D9B6E000E4BC3 /* ViewController.swift in Sources */,
+				9A508B3F23C6DA2A000E91E8 /* RankViewController.swift in Sources */,
 				9A63C8892361A3D1007E8F86 /* GuessWordStartViewController.swift in Sources */,
 				9A4F05FB235EF1BE000E4BC3 /* TimerViewController.swift in Sources */,
+				9A731BD123B1E4D100F13876 /* ScoreRecorderStartViewController.swift in Sources */,
 				9A0748CE236152AB0014C906 /* GoHomeViewController.swift in Sources */,
+				9A731BD323B213B400F13876 /* EditTeamViewController.swift in Sources */,
 				9A4F05DB235D9B6E000E4BC3 /* AppDelegate.swift in Sources */,
 				9A4F05F9235EE83E000E4BC3 /* AfterRevealViewController.swift in Sources */,
+				9A731BCF23B1B66E00F13876 /* models.swift in Sources */,
 				9A4F05EF235DF5B6000E4BC3 /* AssignMasterViewController.swift in Sources */,
 				9A4F05ED235DC8BB000E4BC3 /* StartViewController.swift in Sources */,
 				9A4F05F3235E9B69000E4BC3 /* BeforeRevealViewController.swift in Sources */,
 				9A4F05FD235EF5B6000E4BC3 /* ChooseWordViewController.swift in Sources */,
+				9A605D0A23C5EEF700697C2F /* SchulteGridStartViewController.swift in Sources */,
 				9A4F05F7235EE384000E4BC3 /* GameRunViewController.swift in Sources */,
 				9A4F05F5235ED4B9000E4BC3 /* HomeViewController.swift in Sources */,
 			);
